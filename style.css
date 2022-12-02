@@ -71,10 +71,6 @@ background-color: #020141b6;
 }
 
 
-/*Inicio*/
-
-
-
 /*-----Nosotros-----*/
 .bloque{
     margin-top: 50px;
@@ -111,6 +107,8 @@ background-color: #020141b6;
 .card-body h1{
     font-size: x-large;
 }
+
+
 /*--------registro-------*/
 .registro{
     padding: 0;
@@ -126,6 +124,9 @@ background-color: #020141b6;
     align-items: center;
     font-family: "rubik", sans-serif;
     opacity: 4;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .main-container{
@@ -217,12 +218,18 @@ background-color: #020141b6;
 
 /*formulario*/
 .caja-contacto{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-left: 200px;
-    padding-right: 200px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .mb-3{
     margin-top: 30px;
+} 
+
+.footer-contacto{
+    padding: 0 0 20px;
 }
