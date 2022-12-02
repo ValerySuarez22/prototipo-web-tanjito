@@ -1,0 +1,228 @@
+
+/*BODY fondos de pantalla tanjiro, inicio, nosotros, nuestras series, premium y contacto*/
+.tanjiro{
+
+    background-image: url(/imagenes/tanjiro-fondo.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.inicio{
+
+    background-image: url(/imagenes/inicio-fondo.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.nosotros{
+    background-image: url(/imagenes/nosotros-fondo.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.series{
+    background-image: url(/imagenes/ojos.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;  
+}
+
+.contacto{
+    background-image: url(/imagenes/contacto-fondo.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;  
+}
+
+
+/*-----Estilos para la barra de avegador-----*/
+.container-fluid{
+    background-color: #020141;
+}
+
+.navbar {
+    padding: 0 !important ;
+}
+
+
+/*----------Tanjito pantalla principal----------*/
+.text-center h1, p{
+    color:rgb(0, 0, 0);
+}
+
+
+/*--------Footter--------*/
+.my-4{
+background-color: #020141b6;
+}
+
+
+/*-----botones-----*/
+.boton-entrar{
+    background-color: #020141;
+}
+
+.margen{
+    margin: 20px 70px 40px;
+}
+
+
+/*Inicio*/
+
+
+
+/*-----Nosotros-----*/
+.bloque{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+ .caja-linea {
+    border-color: #020141;
+ }
+
+/*------Nuestras series-----*/
+.titulo h1{
+    color:#9fc131;
+    background: linear-gradient(#042940, #1cb5e0);
+}
+
+.caja:hover .img-static{
+    display: none;
+}
+
+.caja:hover .over-img{
+    display: block;
+}
+
+.caja .img-static{
+    display: block;
+}
+
+.caja .over-img{
+    display: none;
+}
+
+.card-body h1{
+    font-size: x-large;
+}
+/*--------registro-------*/
+.registro{
+    padding: 0;
+    margin: 0;
+}
+
+.container-registro{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #005c53 , #d6d58e);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "rubik", sans-serif;
+    opacity: 4;
+}
+
+.main-container{
+    width: 500px;
+    margin: 65px auto;
+    border-radius: 8px;
+    background-color: #000;
+    background: rgba(255,255,255, .5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.main-container h1{
+    padding: 35px 35px 0 35px;
+    font-weight: 300;
+}
+
+.main-container .content{
+    padding: 35px;
+    text-align: center;
+}
+
+.main-container .input-field{
+    padding: 12px 5px;
+}
+
+.main-container .input-field input{
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding: 10px 1px;
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #747474;
+    transition: all .2s;
+}
+
+.main-container .input-field input:focus{
+    border-color: #222;
+}
+
+.main-container a.link{
+    text-decoration: none;
+    letter-spacing: o.2px;
+    color: #747474;
+    text-transform: uppercase;
+    margin: 20px 20px;
+    display: inline-block;
+}
+
+.main-container .action{
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+}
+
+.main-container .action a{
+    border:none;
+    padding: 18px;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: #e8e9ec;
+    color: #777;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 0;
+    letter-spacing: 0.2px;
+    outline: 0;
+    transition: .3s;
+}
+
+.main-container .action a:hover{
+    background-color: #d8d8d8;
+}
+
+.main-container .action a:nth-child(2){
+    background: #2d3b55;
+    color: #fff;
+    border-bottom-left-radius: 0 ;
+    border-bottom-right-radius: 4px;
+
+}
+
+.main-container .action a:nth-child(2):hover{
+    background-color: #3c4d6d;
+}
+
+
+/*formulario*/
+.caja-contacto{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.mb-3{
+    margin-top: 30px;
+}
